@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+:root {
+  --color-primary-green-500: hsl(158, 36%, 37%);
+  --color-primary-green-700: hsl(158, 42%, 18%);
+
+  --color-neutral-black: hsl(212, 21%, 14%);
+  --color-neutral-grey: hsl(228, 12%, 48%);
+  --color-neutral-cream: hsl(30, 38%, 92%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+}
