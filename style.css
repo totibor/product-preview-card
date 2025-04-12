@@ -1,3 +1,4 @@
+/* Style reset */
 *,
 *::before,
 *::after {
@@ -14,11 +15,37 @@ ol {
 }
 
 :root {
+  /* Colors */
   --color-primary-green-500: hsl(158, 36%, 37%);
   --color-primary-green-700: hsl(158, 42%, 18%);
-
   --color-neutral-black: hsl(212, 21%, 14%);
   --color-neutral-grey: hsl(228, 12%, 48%);
   --color-neutral-cream: hsl(30, 38%, 92%);
   --color-neutral-white: hsl(0, 0%, 100%);
+
+  /* Spacing */
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: var(--color-neutral-cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-width: 350px;
+  max-width: 650px;
+  min-height: 456px;
+  max-height: 750px;
 }
