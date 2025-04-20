@@ -60,7 +60,22 @@ img {
 }
 
 .cardinfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
   padding: var(--spacing-400);
+}
+
+.cardtext {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+}
+
+.price {
+  display: flex;
+  gap: var(--spacing-200);
+  align-items: center;
 }
 
 .text-preset-1 {
