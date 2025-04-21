@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 img {
@@ -76,6 +77,17 @@ img {
   display: flex;
   gap: var(--spacing-200);
   align-items: center;
+}
+
+.add-to-cart-button {
+  background-color: var(--color-primary-green-500);
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-100);
+  padding: var(--spacing-200) var(--spacing-400);
+  border: none;
+  border-radius: var(--spacing-100);
+  cursor: pointer;
 }
 
 .text-preset-1 {
@@ -125,4 +137,8 @@ img {
 
 .green {
   color: var(--color-primary-green-500);
+}
+
+.white {
+  color: var(--color-neutral-white);
 }
