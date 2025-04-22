@@ -46,13 +46,12 @@ body {
 
 img {
   display: block;
+  object-fit: cover;
 }
 
 .card {
-  min-width: 350px;
   max-width: 600px;
   min-height: 456px;
-  max-height: 750px;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -80,6 +79,8 @@ img {
 }
 
 .add-to-cart-button {
+  min-width: 236px;
+  max-width: 286px;
   background-color: var(--color-primary-green-500);
   display: flex;
   justify-content: center;
@@ -141,4 +142,12 @@ img {
 
 .white {
   color: var(--color-neutral-white);
+}
+
+@media (max-width: 650px) {
+  .card {
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 750px;
+  }
 }
