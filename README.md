@@ -4,16 +4,16 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./result.png" width="800">
 
 ## My process
 
@@ -42,8 +42,16 @@ The `srcset` attribute in the `<img>` tag complements the `src` attribute instea
 
 ### Continued development
 
+Better understand the `<picture>` and `<img>` tags:
+
+[Responsive images](https://web.dev/learn/design/responsive-images)
+
+[The picture element](https://web.dev/learn/design/picture-element)
+
 ### Useful resources
 
 [max-inline-size](https://developer.mozilla.org/en-US/docs/Web/CSS/max-inline-size)
+
 [block-size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size) - Value of `auto` means the browser preserves your images' aspect ratio as it resizes them.
+
 [object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) - Adjust the focus of the crop.
