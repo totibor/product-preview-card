@@ -79,7 +79,7 @@ picture img {
   align-items: center;
 }
 
-.add-to-cart-button {
+button {
   min-width: 236px;
   max-width: 286px;
   background-color: var(--color-primary-green-500);
@@ -90,6 +90,10 @@ picture img {
   border: none;
   border-radius: var(--spacing-100);
   cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-primary-green-700);
 }
 
 .text-preset-1 {
