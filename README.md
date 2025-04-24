@@ -38,6 +38,7 @@ Users should be able to:
 
 ### What I learned
 
+The `srcset` attribute in the `<img>` tag complements the `src` attribute instead of replacing it. You still need to have a valid `src` attribute.
 
 ### Continued development
 

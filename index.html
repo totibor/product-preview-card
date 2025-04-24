@@ -23,7 +23,11 @@
   <body>
     <main>
       <div class="card">
-        <img src="images/image-product-desktop.jpg" width="300" alt="" />
+        <picture>
+          <source media="(min-width: 650px)" srcset="./images/image-product-desktop.jpg" />
+          <source media="(max-width: 650px)" srcset="./images/image-product-mobile.jpg" />
+          <img src="./images/image-product-desktop.jpg" alt="Image of a parfum bottle with leaves on a table" />
+        </picture>
         <div class="cardinfo">
           <div class="cardtext">
             <p class="text-preset-4">Perfume</p>
